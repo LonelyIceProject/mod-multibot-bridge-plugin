@@ -8,6 +8,7 @@
     "ru": "Серверная часть аддона MultiBot-Chatless для управления ботами."
   },
   "authors": [ "Wishmaster117" ],
+  "license": "GPL-2.0-or-later",
   "homepage": "https://github.com/Wishmaster117/mod-multibot-bridge",
   "source": {
     "repo": "https://github.com/Wishmaster117/mod-multibot-bridge.git",
