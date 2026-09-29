@@ -1,0 +1,21 @@
+{
+  "format": 1,
+  "id": "mod-multibot-bridge",
+  "version": "1.0.0",
+  "name": { "en": "MultiBot bridge", "ru": "Мост MultiBot" },
+  "description": {
+    "en": "Server side of the MultiBot-Chatless addon for controlling bots.",
+    "ru": "Серверная часть аддона MultiBot-Chatless для управления ботами."
+  },
+  "authors": [ "Wishmaster117" ],
+  "homepage": "https://github.com/Wishmaster117/mod-multibot-bridge",
+  "source": {
+    "repo": "https://github.com/Wishmaster117/mod-multibot-bridge.git",
+    "commit": "1da05982e478cb00e0b6c87314afe7e0e9653ffb"
+  },
+  "core": { "abi": "lonelyice-ac-2" },
+  "platforms": [ "windows-x64" ],
+  "depends": { "playerbots": ">=1.0.0" },
+  "server": { "library": "mod_multibot_bridge" },
+  "config": "conf/MultiBotBridge.conf.dist"
+}
