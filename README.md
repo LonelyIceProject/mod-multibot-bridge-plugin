@@ -13,6 +13,7 @@ Server side of the MultiBot-Chatless addon for controlling bots.
 | `plugin.json` | The plugin manifest; `source` pins the module's repository and commit. |
 | `CMakeLists.txt` | Fetches the module at that commit, applies `patches/`, builds it with `AddPlugin` and lays out its `conf` and `data` folders with the plugin. |
 | `plugin/plugin.cpp` | The plugin's entry point: the module's own script loader `Addmod_multibot_bridgeScripts()`. |
+| `settings.json` | The launcher's settings group: the module's main options from its `.conf.dist`, with how each one takes effect. |
 | `patches/` | Changes the module needs as a plugin, applied with `git apply`. |
 
 ## Patches

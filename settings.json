@@ -1,0 +1,9 @@
+{
+  "group": { "en": "MultiBot bridge", "ru": "Мост MultiBot" },
+  "hint": { "en": "Server side of the MultiBot addon", "ru": "Серверная часть аддона MultiBot" },
+  "fields": [
+    { "key": "MultiBotBridge.EnableConsoleLogs", "type": "bool", "default": 0, "apply": "reload",
+      "label": { "en": "Log bridge traffic to the server console", "ru": "Писать обмен моста в консоль сервера" },
+      "hint": { "en": "Messages received and sent, and the start; for troubleshooting", "ru": "Принятые и отправленные сообщения и запуск; для поиска неполадок" } }
+  ]
+}
