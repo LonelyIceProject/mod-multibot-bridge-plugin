@@ -1,7 +1,7 @@
 {
   "format": 1,
   "id": "mod-multibot-bridge",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "name": { "en": "MultiBot bridge", "ru": "Мост MultiBot" },
   "description": {
     "en": "Server side of the MultiBot-Chatless addon for controlling bots.",
@@ -10,6 +10,7 @@
   "authors": [ "Wishmaster117" ],
   "license": "GPL-2.0-or-later",
   "homepage": "https://github.com/Wishmaster117/mod-multibot-bridge",
+  "locales": [ "*" ],
   "source": {
     "repo": "https://github.com/Wishmaster117/mod-multibot-bridge.git",
     "commit": "1da05982e478cb00e0b6c87314afe7e0e9653ffb"
